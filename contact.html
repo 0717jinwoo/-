@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="김진우의 개인 포트폴리오 웹사이트">
+  <title>Contact | 김진우</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="김진우 포트폴리오 홈">JW<span>.</span></a>
+      <p class="eyebrow">PERSONAL PORTFOLIO <span>—</span> 2026</p>
+      <h1>김진우<span class="title-dot">.</span></h1>
+      <p class="subtitle">구리시 오타니 <span class="header-divider">/</span> 전자재료공학</p>
+      <span class="header-mark" aria-hidden="true">JW</span>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="주요 메뉴">
+    <div class="nav-inner">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <span class="nav-hint">DRAG TO EXPLORE <span aria-hidden="true">↔</span></span>
+    </div>
+  </nav>
+
+  <main class="container page-enter" id="page-content" data-page="contact">
+    <div class="section-heading">
+      <span class="section-kicker">01 / 04 — CONTACT</span>
+      <h2>Let’s Connect</h2>
+    </div>
+    <section class="content-section" aria-label="Contact 콘텐츠">
+      <p class="lead">협업이나 질문이 있다면 아래 연락처를 추가해 주세요.</p>
+<div class="contact-details">
+  <div><span class="detail-label">EMAIL</span><p>이메일 주소를 여기에 입력하세요.</p></div>
+  <div><span class="detail-label">GITHUB</span><p>GitHub 주소를 여기에 입력하세요.</p></div>
+  <div><span class="detail-label">LINKS</span><p>블로그 또는 기타 링크를 여기에 입력하세요.</p></div>
+</div>
+<form class="contact-form" onsubmit="return false;">
+  <label for="visitor-name">이름</label>
+  <input id="visitor-name" type="text" placeholder="이름을 입력하세요">
+  <label for="visitor-message">메시지</label>
+  <textarea id="visitor-message" rows="4" placeholder="메시지를 입력하세요"></textarea>
+  <button type="submit">메시지 보내기 <span aria-hidden="true">↗</span></button>
+  <p class="form-note">현재는 디자인 예시이며 메시지 전송 기능은 연결되어 있지 않습니다.</p>
+</form>
+    </section>
+    <div class="page-navigation" aria-label="페이지 이동">
+      <span>SCROLL OR DRAG</span>
+      <span class="drag-symbol" aria-hidden="true">⟵ &nbsp; ⟶</span>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> KIM JINWOO</p>
+      <p>MADE WITH <span aria-label="love">♥</span> AND CURIOSITY</p>
+    </div>
+  </footer>
+  <div class="drag-progress" aria-hidden="true"><span></span></div>
+  <script src="script.js"></script>
+</body>
+</html>

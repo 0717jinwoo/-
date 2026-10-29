@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="김진우의 개인 포트폴리오 웹사이트">
+  <title>Portfolio | 김진우</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="김진우 포트폴리오 홈">JW<span>.</span></a>
+      <p class="eyebrow">PERSONAL PORTFOLIO <span>—</span> 2026</p>
+      <h1>김진우<span class="title-dot">.</span></h1>
+      <p class="subtitle">구리시 오타니 <span class="header-divider">/</span> 전자재료공학</p>
+      <span class="header-mark" aria-hidden="true">JW</span>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="주요 메뉴">
+    <div class="nav-inner">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html" aria-current="page">Portfolio</a>
+      <a href="contact.html">Contact</a>
+      <span class="nav-hint">DRAG TO EXPLORE <span aria-hidden="true">↔</span></span>
+    </div>
+  </nav>
+
+  <main class="container page-enter" id="page-content" data-page="portfolio">
+    <div class="section-heading">
+      <span class="section-kicker">01 / 04 — PORTFOLIO</span>
+      <h2>Selected Work</h2>
+    </div>
+    <section class="content-section" aria-label="Portfolio 콘텐츠">
+      <p class="lead">작은 시도와 과제를 통해 배운 것을 기록합니다.</p>
+<div class="project-list">
+  <article class="project-card">
+    <span class="project-index">PROJECT 01</span>
+    <h3>개인 포트폴리오 웹사이트</h3>
+    <p>HTML 시맨틱 태그와 CSS를 활용해 소개와 작업물을 정리하는 반응형 웹사이트입니다.</p>
+    <span class="project-meta">HTML · CSS · JavaScript</span>
+  </article>
+  <article class="project-card">
+    <span class="project-index">PROJECT 02</span>
+    <h3>C 언어 기초 과제</h3>
+    <p>배열과 반복문을 활용해 정수 데이터의 합계, 평균, 편차를 계산하는 프로그램을 구현했습니다.</p>
+    <span class="project-meta">C · Visual Studio</span>
+  </article>
+</div>
+<p class="note">프로젝트 설명과 링크는 실제 작업 내용에 맞게 수정해 주세요.</p>
+    </section>
+    <div class="page-navigation" aria-label="페이지 이동">
+      <span>SCROLL OR DRAG</span>
+      <span class="drag-symbol" aria-hidden="true">⟵ &nbsp; ⟶</span>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> KIM JINWOO</p>
+      <p>MADE WITH <span aria-label="love">♥</span> AND CURIOSITY</p>
+    </div>
+  </footer>
+  <div class="drag-progress" aria-hidden="true"><span></span></div>
+  <script src="script.js"></script>
+</body>
+</html>
